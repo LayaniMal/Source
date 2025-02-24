@@ -12,7 +12,7 @@ data:
     - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
     - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
   context: /newSwaggerPetstore
-  version: 1.0.19
+  version: 1.0.0
   provider: admin
   lifeCycleStatus: CREATED
   isRevision: false
@@ -31,8 +31,8 @@ data:
   endpointConfig:
     endpoint_type: http
     production_endpoints:
-      url: http://localhost:8080
+      url: https://bf8e0d37ccfd453faa42445b154b374f.api.mockbin.io/
     sandbox_endpoints:
-      url: http://localhost:8081
+      url: https://bf8e0d37ccfd453faa42445b154b374f.api.mockbin.io/
   endpointImplementationType: ENDPOINT
   websubSubscriptionConfiguration: null
